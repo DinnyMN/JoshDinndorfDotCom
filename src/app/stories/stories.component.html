@@ -1,0 +1,10 @@
+<div class="loading-section" *ngIf="!items">
+  no items found
+</div>
+<div *ngIf="items">
+  <ul>
+    <li *ngFor="let item of items" class="post">
+      <app-item class="item-block" [item]="item"></app-item>
+    </li>
+  </ul>
+</div>
