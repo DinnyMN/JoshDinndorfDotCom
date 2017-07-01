@@ -9,6 +9,7 @@ import { StoriesComponent } from './stories/stories.component';
 import { FooterComponent } from './footer/footer.component';
 import { ItemComponent } from './item/item.component';
 import { ItemsApiService } from './items-api/items-api.service';
+import { ChipComponent } from './item/chip/chip.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ItemsApiService } from './items-api/items-api.service';
     HeaderComponent,
     StoriesComponent,
     FooterComponent,
-    ItemComponent
+    ItemComponent,
+    ChipComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +26,7 @@ import { ItemsApiService } from './items-api/items-api.service';
     HttpModule
   ],
   providers: [ItemsApiService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 
 export class AppModule { }

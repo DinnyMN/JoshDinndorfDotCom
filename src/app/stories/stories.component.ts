@@ -12,20 +12,11 @@ import { Item } from '../models/item';
 })
 export class StoriesComponent implements OnInit {
   items: Item[];
-  item: Item;
 
   constructor(private _itemsApiService: ItemsApiService) {
-    this.item = new Item();
-    this.item.id = 1;
-
-    this.items = [this.item];
   }
 
   ngOnInit() {
-    // this._itemsApiService.fetchItems().subscribe(
-    //   items => this.items = items,
-    //   error => console.log('Error fetching items')
-    // );
     this._itemsApiService.fetchItems().subscribe(
       items => this.items = items,
       error => console.log('Error fetching items')

@@ -1,8 +1,10 @@
 <div class="item-laptop">
-  <p>
-    <a class="title" href="">
-      {{item.title}}
-    </a>
-    <span *ngIf="item.domain" class="domain">({{item.domain}})</span>
-  </p>
+  <div>
+    <a class="title" href="">{{item.title}}</a>
+    <span class="domain">({{item.domain}})</span>
+    <div>
+      <app-chip *ngFor="let tag of item.tags" class="domain" [text]="tag"></app-chip>
+      <span class="domain">{{item.time | date}}</span>
+    </div>
+  </div>
 </div>
