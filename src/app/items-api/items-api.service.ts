@@ -6,10 +6,9 @@ import fetch from 'unfetch';
 @Injectable()
 export class ItemsApiService {
   baseUrl: string;
-  baseUrl2: string;
 
   constructor() {
-    this.baseUrl = 'assets/items.json';
+    this.baseUrl = 'https://joshdinndorffunction.azurewebsites.net/api/GetItems?code=stXUEWh7kOJioLGFV1t3DvO9jBkq1t6DW8ID3BoXN7M0roLnD8YxsA==';
   }
 
   fetchItems(): Observable<any> {
