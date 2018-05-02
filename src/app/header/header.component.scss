@@ -42,11 +42,11 @@ h1 {
   vertical-align:middle;
   margin: 0;
   font-size: 16px;
+}
 
-  a {
-    color: #fff;
-    text-decoration: none;
-  }
+a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .name {
@@ -78,6 +78,17 @@ h1 {
   @media #{$mobile-only} {
     width: 100%;
     left: 0;
+  }
+}
+
+.right {
+  position: absolute;
+  right: 60px;
+  font-size: 16px;
+
+  @media #{$mobile-only} {
+    width: 100%;
+    right: 0;
   }
 }
 
