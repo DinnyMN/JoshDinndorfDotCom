@@ -140,5 +140,140 @@ export const items: Item[] = [
     domain: 'meetup.com',
     tags: ['Dev', 'ElasticSearch'],
     time: new Date(2018, 5, 1)
+  }, {
+    title: 'Simple performance logging',
+    url: 'https://stackoverflow.com/questions/35549921/how-to-log-elapsed-time-in-log4net',
+    domain: 'stackoverflow',
+    tags: ['Dev', 'log4net'],
+    time: new Date(2017, 7, 12)
+  },
+  {
+    title: 'Slack + dark theme!',
+    url: 'https://github.com/widget-/slack-black-theme',
+    domain: 'github',
+    tags: ['Dev', 'slack'],
+    time: new Date(2017, 10, 12)
+  },
+  {
+    title: 'Typescript + Express interesting',
+    url: 'https://github.com/nestjs/nest',
+    domain: 'github',
+    tags: ['Dev', 'Javascript', 'Node.js'],
+    time: new Date(2017, 10, 26)
+  },
+  {
+    title: 'Oneliner for deserializing while debugger',
+    url: 'https://stackoverflow.com/questions/18794264/visual-studio-how-to-serialize-object-from-debugger',
+    domain: 'github',
+    tags: ['Dev', 'VisualStudio', '.NET'],
+    time: new Date(2017, 12, 5)
+  },
+  {
+    title: 'Regex How to add something every x line',
+    url: 'https://superuser.com/questions/680416/how-to-add-something-every-x-line',
+    domain: 'superuser',
+    tags: ['Dev', 'Regex'],
+    time: new Date(2017, 12, 11)
+  },
+  {
+    title: 'The Service Layer is your most important Contract',
+    url: 'https://stackoverflow.com/questions/15368257/servicestack-new-service-side-by-side-asp-net-mvc-website/15369736#15369736',
+    domain: 'stackoverflow',
+    tags: ['Dev', '.NET', 'ServiceStack'],
+    time: new Date(2017, 12, 15)
+  },
+  {
+    title: 'dotnet-core VisualStudio code coverage',
+    url: 'https://dotnetthoughts.net/measuring-code-coverage-of-dotnet-core-applications-with-vs2017/',
+    domain: 'stackoverflow',
+    tags: ['Dev', '.NET Core', 'VisualStudio'],
+    time: new Date(2018, 1, 15)
+  },
+  {
+    title: 'dotnet-core nuget deps of deps explained',
+    url: 'https://www.erikheemskerk.nl/transitive-nuget-dependencies-net-core-got-your-back/',
+    domain: 'erikheemskerk',
+    tags: ['Dev', '.NET Core'],
+    time: new Date(2018, 1, 24)
+  },
+  {
+    title: '.net standard refs .netcore in vs',
+    url: 'https://github.com/dotnet/standard/issues/497',
+    domain: 'github',
+    tags: ['Dev', '.NET Core'],
+    time: new Date(2018, 3, 7)
+  },
+  {
+    title: 'RESTFUL returns',
+    url: 'https://lh3.googleusercontent.com/-cpYCrP36Nc8/VsWO7emBMRI/AAAAAAAAAyU/0rv7Lnl0aNI/s1600-h/image%25255B5%25255D.png',
+    domain: 'googleusercontent',
+    tags: ['Dev', 'REST'],
+    time: new Date(2018, 3, 12)
+  },
+
+  {
+    title: 'No need to dispose HttpClients manually',
+    url: 'https://stackoverflow.com/questions/29829045/repository-classes-arent-getting-disposed-in-servicestack',
+    domain: 'stackoverflow',
+    tags: ['Dev', '.NET', 'ServiceStack'],
+    time: new Date(2018, 3, 20)
+  },
+  {
+    title: `Don't create HttpClient per call and run out of sockets`,
+    url: 'https://stackoverflow.com/questions/22560971/what-is-the-overhead-of-creating-a-new-httpclient-per-call-in-a-webapi-client',
+    domain: 'stackoverflow',
+    tags: ['Dev', '.NET', 'ServiceStack'],
+    time: new Date(2018, 4, 3)
+  },
+  {
+    title: 'Http as a singleton',
+    url: 'http://byterot.blogspot.co.uk/2016/07/singleton-httpclient-dns.html',
+    domain: 'byterot.blogspot.co.uk',
+    tags: ['Dev', '.NET'],
+    time: new Date(2018, 4, 3)
+  },
+  {
+    title: 'No need to use configureawait in .net core',
+    url: 'https://medium.com/bynder-tech/c-why-you-should-use-configureawait-false-in-your-library-code-d7837dce3d7f',
+    domain: 'medium',
+    tags: ['Dev', '.NET', '.NET Core'],
+    time: new Date(2018, 4, 3)
+  },
+  {
+    title: 'Webclient dead?',
+    url: 'https://stackoverflow.com/questions/30227219/how-to-use-webclient-with-netcore',
+    domain: 'stackoverflow',
+    tags: ['Dev', '.NET', '.NET Core'],
+    time: new Date(2018, 4, 3)
+  },
+  {
+    title: 'Configureawait for .NET Framework?',
+    url: 'https://stackoverflow.com/questions/13489065/best-practice-to-call-configureawait-for-all-server-side-code',
+    domain: 'stackoverflow',
+    tags: ['Dev', '.NET', '.NET Core'],
+    time: new Date(2018, 4, 3)
+  },
+
+  {
+    title: 'Intro to Async in .NET',
+    url: 'https://channel9.msdn.com/Events/aspConf/aspConf/Async-in-ASP-NET',
+    domain: 'stackoverflow',
+    tags: ['Dev', '.NET'],
+    time: new Date(2018, 4, 3)
+  },
+
+  {
+    title: 'Good blog on sync contexts in .NET Core',
+    url: 'http://blog.stephencleary.com/2017/03/aspnetcore-synchronization-context.html',
+    domain: 'stackoverflow',
+    tags: ['Dev', '.NET', '.NET Core'],
+    time: new Date(2018, 4, 3)
+  },
+  {
+    title: 'Great article on thread static vs call context',
+    url: 'http://piers7.blogspot.com/2005/11/threadstatic-callcontext-and_02.html',
+    domain: 'piers7.blogspot.com',
+    tags: ['Dev', '.NET'],
+    time: new Date(2018, 4, 10)
   }
 ];
